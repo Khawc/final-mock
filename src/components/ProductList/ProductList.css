@@ -1,0 +1,11 @@
+.toolbar {
+    min-height: 80px !important;
+}
+.content {
+    flex-grow: 1;
+    background-color: white;
+    padding: 18px;
+  }
+.root {
+    flex-grow: 1;
+  }

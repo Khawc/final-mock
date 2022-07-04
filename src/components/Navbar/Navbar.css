@@ -1,0 +1,45 @@
+.appBar {
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.title {
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+.image {
+    margin-right: 10px;
+}
+.menuButton {
+    margin-right: 16px;
+}
+.grow {
+    flex-grow: 1;
+}
+.search {
+    position: relative;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin-right: 16px;
+    margin-left: 0;
+    width: 100%;
+}
+.searchIcon {
+    padding: 0px 16px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputRoot {
+    color: inherit;
+}
+.inputInput {
+    padding: 6px 6px 6px 0px;
+    padding-left: calc(1em + 24px);
+    transition: width 2s;
+    width: 100%;
+}
